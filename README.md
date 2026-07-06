@@ -45,21 +45,15 @@ Once the environment loads, run pip install -r requirements.txt followed by pyth
 Note: Since cloud environments lack a native local desktop clipboard, it will simulate actions within the container interface.
 
 ## Project Structure
-
+```bash
 ├── .github/
-
 │   └── workflows/
-
 │       └── ci.yml          # Basic syntax and quality checks
-
 ├── .gitignore              # Keeps your env files out of source control
-
 ├── README.md               # This documentation
-
 ├── main.py                 # Main application logic
-
 └── requirements.txt        # Dependency manifest
-
+```
 ## Roadmap
 [ ] Add a native tray icon for quick toggling and background process control.
 
